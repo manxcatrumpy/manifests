@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="base-13.xml"/>
+  <remote fetch="https://android.googlesource.com" name="panther"/>
+
+  <!-- Change for Google Pixel 7 -->
+  <project path="device/google/pantah" name="device/google/pantah" remote="panther" revision="refs/tags/android-13.0.0_r27" />
+  <project path="device/google/pantah-kernel" name="device/google/pantah-kernel" groups="device,cloudripper" remote="panther" revision="refs/tags/android-13.0.0_r27" clone-depth="1" />
+</manifest>
